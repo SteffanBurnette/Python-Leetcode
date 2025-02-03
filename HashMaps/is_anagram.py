@@ -31,7 +31,7 @@ class Solution:
                 my_hashT[char] = t.count(char)
                 
                 if char not in my_hash: #if t cointains a letter not in s its not a anagram
-                    is_ana = False
+                    is_ana = False #since True is the original setting
                     break
                 elif my_hash[char] != my_hashT[char]: #if the count doesnt match its not a anagram
                     is_ana = False
