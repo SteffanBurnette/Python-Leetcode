@@ -1,4 +1,4 @@
-#1- Start with the second element in the array
+#1-Start with the second element in the array  
 #2- If the second element is greater than the first element, swap them
 #3- Move to the next element and compare with all previos elements (swap when needed)
 #4- Repeat the process until the array is sorted
@@ -14,5 +14,5 @@ for i in range(1, len(arr)): #Start fro the second element
         j -= 1
         arr[j + 1] = key
 
-        
+
 print(arr)
