@@ -2,7 +2,7 @@
 #2- If the second element is greater than the first element, swap them
 #3- Move to the next element and compare with all previos elements (swap when needed)
 #4- Repeat the process until the array is sorted
-
+#Githelp
 arr = [23, 1, 10, 5, 2]
 #key = 0 #The key is the current element that needs to be sorted
 
