@@ -19,3 +19,6 @@ class Solution:
                 
         
         return arr
+
+#Can also sort the array and perform binary search of target which will 
+#have a time complexity of O(n)
