@@ -1,7 +1,7 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         anagrams = []
-        my_hash = {}
+        my_hash = {} #My hash map
        
         
         for i in range(len(strs)):
